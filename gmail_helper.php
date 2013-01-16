@@ -10,7 +10,7 @@ if ( ! function_exists('gmail'))
       function gmail($email = '',$subject = '',$message = ''){
       
         $config = Array(
-    'protocol' => 'mail',
+    'protocol' => 'mail', //others include SMTP, sendmail
     'smtp_host' => 'ssl://smtp.googlemail.com',
     'smtp_port' => 587,
     'smtp_user' => 'YOUR_EMAIL_ADDRESS',
